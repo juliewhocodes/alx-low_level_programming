@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -c $CFILE[D[D[D[D
+gcc -c $CFILE[D
+gcc -S $CFILE
