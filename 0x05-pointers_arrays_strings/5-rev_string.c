@@ -16,7 +16,7 @@ int i, tmp, len = _strlen(s);
 {
 tmp = *(s + i);
 *(s + i) = *(s + len - i - 1);
-*(s + len - i - 1) = temp;
+*(s + len - i - 1) = tmp;
 }
 }
 
@@ -36,3 +36,4 @@ len++;
 
 return (len);
 }
+
