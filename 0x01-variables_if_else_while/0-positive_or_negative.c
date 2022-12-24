@@ -1,15 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* headers*/
+/* more headers goes there*/
 
- * betty style*/
  /**
  * main - Entry point
- *
+ * Description - Prints if random generated number is +tive, zero or -tive
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int n;
@@ -25,5 +23,6 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
+
 
 
